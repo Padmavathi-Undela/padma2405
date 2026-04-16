@@ -62,4 +62,3 @@ jobs:
           app-name: 'mywebapp2405'
           slot-name: 'Production'
           package: ./app
-          
