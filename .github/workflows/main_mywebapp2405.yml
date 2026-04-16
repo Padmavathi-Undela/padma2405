@@ -24,10 +24,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build Project
-        run: dotnet build MyWebApp.MyWebapp.csproj --configuration Release
+        run: dotnet build MyWebApp/mywebapp2405.csproj --configuration Release
 
       - name: Publish project
-        run: dotnet publish MyWebApp/MyWebApp.csproj -c Release -o publish
+        run: dotnet publish MyWebApp/mywebapp2405.csproj -c Release -o publish
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
